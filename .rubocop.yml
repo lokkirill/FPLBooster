@@ -1,9 +1,9 @@
-# Style
-Style/Documentation:
-  Enabled: false
-Style/FrozenStringLiteralComment:
-  Enabled: false
-Style/MixinUsage:
+AllCops:
+  Exclude:
+    - 'db/**/*'
+
+# Layout
+Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
 # Metrics
@@ -13,3 +13,11 @@ Metrics/LineLength:
   Max: 120
 Metrics/MethodLength:
   Max: 30
+
+# Style
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/MixinUsage:
+  Enabled: false
